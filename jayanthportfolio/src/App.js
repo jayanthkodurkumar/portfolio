@@ -5,6 +5,7 @@ import HashLoader from "react-spinners/HashLoader";
 
 function App() {
   const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -19,7 +20,7 @@ function App() {
           <HashLoader color={"#D4FC79"} loading={loading} size={50} />{" "}
         </div>
       ) : (
-        <Home />
+        <Home className="home" />
       )}
     </div>
   );

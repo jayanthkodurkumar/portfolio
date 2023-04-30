@@ -32,13 +32,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation-duration: 7s;
+    animation-duration: 3s;
     animation-name: fadeInFromLeft;
   }
 
   .navbar-name span {
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   @keyframes fadeInFromLeft {
@@ -47,8 +47,7 @@
       transform: translateX(-50px);
     }
     50% {
-      opacity: 0.1;
-      transform: translateX(0);
+      opacity: 0.3;
     }
     100% {
       opacity: 1;
