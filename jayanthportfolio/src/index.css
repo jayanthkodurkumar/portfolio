@@ -1,0 +1,12 @@
+@media (max-width: 390px) and (max-height: 844px) {
+  body {
+    /* margin: 0; */
+    background-color: #181123;
+    /* width: 390px; */
+  }
+  /* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+}
