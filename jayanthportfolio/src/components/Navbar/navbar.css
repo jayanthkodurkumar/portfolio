@@ -3,7 +3,7 @@
 
   .navbar-container {
     background-color: #282133;
-    width: 85.34vw;
+    width: 80.34vw;
     height: 5vh;
     backdrop-filter: blur(4px);
 
@@ -24,20 +24,20 @@
   }
   .navbar-name {
     color: whitesmoke;
-    width: 55%;
+    width: 53%;
     height: 23px;
-    padding-left: 12px;
+    padding-left: 14px;
     padding-top: 2px;
     font-family: "Roboto Condensed";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation-duration: 5s;
-    animation-name: fadeInLeft;
+    animation-duration: 7s;
+    animation-name: fadeInFromLeft;
   }
 
   .navbar-name span {
@@ -45,7 +45,7 @@
     opacity: 0.8;
   }
 
-  @keyframes fadeInLeft {
+  @keyframes fadeInFromLeft {
     0% {
       opacity: 0;
       transform: translateX(-50px);

@@ -1,0 +1,38 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Your CSS rules here */
+
+  .description-container {
+    width: 353px;
+    height: 58px;
+  }
+
+  .description-text-1 {
+    font-family: "Khula";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 58px;
+    /* identical to box height */
+    background: linear-gradient(90deg, #d4fc79 0%, #96e6a1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    width: 370px;
+  }
+
+  .description-text-2 {
+    /* width: fit-content; */
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+    color: #ffffff;
+  }
+  .description-text-2 span {
+    background: linear-gradient(88.59deg, #d4fc79 77.94%, #96e6a1 110.78%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
