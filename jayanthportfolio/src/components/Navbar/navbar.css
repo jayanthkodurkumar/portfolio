@@ -19,7 +19,7 @@
     width: 10vw;
   }
   .navbar-name {
-    color: whitesmoke;
+    color: #d4fc79;
     width: 53%;
     height: 23px;
     padding-left: 14px;
@@ -38,20 +38,20 @@
 
   .navbar-name span {
     text-align: center;
-    opacity: 0.9;
+    opacity: 1;
   }
 
   @keyframes fadeInFromLeft {
     0% {
       opacity: 0;
-      transform: translateX(-50px);
+      transform: translateZ(-50px);
     }
     50% {
       opacity: 0.3;
     }
     100% {
       opacity: 1;
-      transform: translateX(0);
+      transform: translateZ(0);
     }
   }
 

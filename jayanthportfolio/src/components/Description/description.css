@@ -21,7 +21,7 @@
   }
 
   .description-text-2 {
-    /* width: fit-content; */
+    width: 102%;
     font-family: "Roboto Condensed";
     font-size: 15px;
     font-weight: 300;

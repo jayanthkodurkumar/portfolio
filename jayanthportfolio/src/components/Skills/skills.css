@@ -1,0 +1,45 @@
+.skills-container {
+  position: relative;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-box {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 10px 10px;
+  overflow: hidden;
+  list-style: none;
+  border-radius: 25px;
+  border-style: dotted;
+  border-color: #d4fc79;
+}
+
+.skills-box li::before {
+  content: "▹";
+  position: relative;
+  left: 0px;
+  color: #d4fc79;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+  margin-right: 10px;
+}
+.skills-box li {
+  position: relative;
+  margin-bottom: 10px;
+}
+.skills-text,
+.skills-text1 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+
+  color: #d4fc79;
+  position: relative;
+}
