@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.365ac4df.css",
+    "main.css": "/portfolio/static/css/main.36a989b0.css",
     "main.js": "/portfolio/static/js/main.46a22c0e.js",
     "static/media/bitmojiMobile.png": "/portfolio/static/media/bitmojiMobile.cb94a0a4b662fef7636a.png",
     "index.html": "/portfolio/index.html",
-    "main.365ac4df.css.map": "/portfolio/static/css/main.365ac4df.css.map",
+    "main.36a989b0.css.map": "/portfolio/static/css/main.36a989b0.css.map",
     "main.46a22c0e.js.map": "/portfolio/static/js/main.46a22c0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.365ac4df.css",
+    "static/css/main.36a989b0.css",
     "static/js/main.46a22c0e.js"
   ]
 }
