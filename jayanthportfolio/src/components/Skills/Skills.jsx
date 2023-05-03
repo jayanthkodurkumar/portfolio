@@ -37,8 +37,16 @@ const Skills = ({ className }) => {
 
   return (
     <div className={`skills-container ${className}`}>
-      <ul className="skills-box"> {skillsList1}</ul>
-      <ul className="skills-box"> {skillsList2}</ul>
+      <div className="parent-box">
+        <span>
+          <ul className="skills-box"> {skillsList1}</ul>
+        </span>
+      </div>
+      <div className="parent-box">
+        <span>
+          <ul className="skills-box"> {skillsList2}</ul>
+        </span>
+      </div>
     </div>
   );
 };

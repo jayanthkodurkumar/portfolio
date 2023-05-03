@@ -13,7 +13,8 @@
     font-size: 36px;
     line-height: 58px;
     /* identical to box height */
-    background: linear-gradient(90deg, #d4fc79 0%, #96e6a1 100%);
+    color: #000;
+    background: linear-gradient(90deg, #ffffff 0%, #d4fc79 30%, #ffffff 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
