@@ -19,7 +19,7 @@
     width: 10vw;
   }
   .navbar-name {
-    color: #d4fc79;
+    color: #fff;
     width: 53%;
     height: 23px;
     padding-left: 14px;
@@ -72,7 +72,7 @@
   .line-3 {
     width: 25px;
     height: 2px;
-    background: #d4fc79;
+    background: #fff;
     border-radius: 50px;
   }
 }
